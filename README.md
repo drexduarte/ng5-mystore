@@ -13,10 +13,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - Define all the necessary Components / Models (so far)
 
 - Header
-- ProviderComponent
-	- Provider Model
-- CustomerComponent
-	- Customer Model
-- OrderListComponent
-	- OrderComponent
+- ProviderList
+	- CustomerItem
+	- ProviderEdit
+		- Provider Model
+- CustomerList
+	- CustomerItem
+	- CustomerEdit
+		- Customer Model
+- OrderList
+	- OrderItem
+	- OrderEdit
 		- Order Model

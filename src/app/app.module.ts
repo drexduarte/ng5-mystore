@@ -9,6 +9,10 @@ import { HeaderComponent } from './header/header.component';
 import { CustomerListComponent } from './customer-list/customer-list.component';
 import { CustomerEditComponent } from './customer-list/customer-edit/customer-edit.component';
 import { OrderItemComponent } from './order-list/order-item/order-item.component';
+import { ProviderListComponent } from './provider-list/provider-list.component';
+import { ProviderEditComponent } from './provider-list/provider-edit/provider-edit.component';
+import { ProviderItemComponent } from './provider-list/provider-item/provider-item.component';
+import { CustomerItemComponent } from './customer-list/customer-item/customer-item.component';
 
 
 @NgModule({
@@ -19,7 +23,11 @@ import { OrderItemComponent } from './order-list/order-item/order-item.component
     HeaderComponent,
     CustomerListComponent,
     CustomerEditComponent,
-    OrderItemComponent
+    OrderItemComponent,
+    ProviderListComponent,
+    ProviderEditComponent,
+    ProviderItemComponent,
+    CustomerItemComponent
   ],
   imports: [
     BrowserModule
